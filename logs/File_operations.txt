@@ -1,0 +1,10 @@
+2022-11-12		13:37:30		Entered the save_model method of the File_Operation class
+2022-11-12		13:37:30		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class
+2022-11-12		13:56:22		Entered the load_model method of the File_Operation class
+2022-11-12		13:56:22		Exception occured in load_model method of the Model_Finder class. Exception message:  [Errno 2] No such file or directory: 'models/xgboost.sav'
+2022-11-12		13:57:45		Entered the load_model method of the File_Operation class
+2022-11-12		13:57:45		Model File models/random_forest.sav loaded. Exited the load_model method of the Model_Finder class
+2022-11-12		15:05:43		Entered the save_model method of the File_Operation class
+2022-11-12		15:05:43		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class
+2022-11-12		15:08:24		Entered the save_model method of the File_Operation class
+2022-11-12		15:08:24		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class

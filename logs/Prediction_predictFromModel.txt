@@ -1,0 +1,5 @@
+2022-11-12		13:56:22		Start of Prediction
+2022-11-12		13:56:22		Got the validated CSV file!!
+2022-11-12		13:56:22		Error occured while running the prediction!! Error:: 'NoneType' object has no attribute 'predict'
+2022-11-12		13:57:45		Start of Prediction
+2022-11-12		13:57:45		Got the validated CSV file!!

@@ -1,0 +1,401 @@
+2022-11-12		13:32:06		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		13:32:06		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		13:32:06		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		13:32:06		one_hot_encoding is completed!!!
+2022-11-12		13:32:06		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		13:32:06		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		13:32:06		Entered the is_null_present method of the Preprocessor class
+2022-11-12		13:32:06		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		13:32:06		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		13:32:11		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		13:32:11		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:32:11		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:32:11		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:32:11		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:34:11		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		13:34:11		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		13:34:11		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		13:34:11		one_hot_encoding is completed!!!
+2022-11-12		13:34:11		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		13:34:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		13:34:11		Entered the is_null_present method of the Preprocessor class
+2022-11-12		13:34:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		13:34:11		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		13:34:15		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		13:34:16		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:34:16		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:34:16		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		13:34:16		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:04:47		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:04:48		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:04:48		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:04:48		one_hot_encoding is completed!!!
+2022-11-12		15:04:48		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:04:48		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:04:48		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:04:48		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:04:48		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:04:51		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:04:51		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:04:51		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:04:51		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:04:51		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:07:27		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:07:27		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:07:27		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:07:28		one_hot_encoding is completed!!!
+2022-11-12		15:07:28		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:07:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:07:28		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:07:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:07:28		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:07:31		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:07:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:07:31		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:07:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:07:31		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:14:50		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:14:50		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:14:50		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:14:50		one_hot_encoding is completed!!!
+2022-11-12		15:14:50		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:14:50		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:14:50		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:14:50		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:14:50		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:14:54		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:14:54		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:14:54		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:14:54		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:14:54		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:18:40		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:18:40		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:18:40		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:18:41		one_hot_encoding is completed!!!
+2022-11-12		15:18:41		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:18:41		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:18:41		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:18:41		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:18:41		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:18:44		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:18:44		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:18:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:18:44		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:18:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:22:09		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:22:09		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:22:09		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:22:09		one_hot_encoding is completed!!!
+2022-11-12		15:22:09		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:22:09		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:22:09		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:22:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:22:09		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:22:12		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:22:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:22:12		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:22:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:22:12		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:26:04		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:26:04		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:26:04		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:26:05		one_hot_encoding is completed!!!
+2022-11-12		15:26:05		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:26:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:26:05		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:26:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:26:05		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:26:08		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:26:08		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:26:08		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:26:08		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:26:08		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:27:32		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:27:32		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:27:32		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:27:32		one_hot_encoding is completed!!!
+2022-11-12		15:27:32		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:27:32		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:27:32		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:27:32		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:27:32		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:27:35		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:27:35		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:27:36		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:27:36		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:27:36		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:29:12		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:29:12		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:29:12		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:29:12		one_hot_encoding is completed!!!
+2022-11-12		15:29:12		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:29:12		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:29:12		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:29:12		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:29:12		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:29:16		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:29:16		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:29:16		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:29:16		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:29:16		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:32:00		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:32:00		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:32:00		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:32:00		one_hot_encoding is completed!!!
+2022-11-12		15:32:00		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:32:00		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:32:00		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:32:00		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:32:00		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:32:04		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:32:04		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:32:04		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:32:04		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:32:04		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:39:11		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:39:11		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:39:11		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:39:11		one_hot_encoding is completed!!!
+2022-11-12		15:39:11		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:39:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:39:11		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:39:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:39:11		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:39:14		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:39:14		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:39:14		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:39:14		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:39:15		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		15:46:09		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:46:09		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:46:09		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:46:09		one_hot_encoding is completed!!!
+2022-11-12		15:46:09		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:46:09		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:46:09		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:46:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:46:09		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:46:13		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:47:05		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:47:05		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:47:05		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:47:05		one_hot_encoding is completed!!!
+2022-11-12		15:47:05		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:47:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:47:05		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:47:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:47:05		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:47:09		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:49:39		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:49:39		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:49:39		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:49:40		one_hot_encoding is completed!!!
+2022-11-12		15:49:40		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:49:40		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:49:40		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:49:40		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:49:40		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:49:43		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:50:22		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		15:50:22		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		15:50:22		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		15:50:22		one_hot_encoding is completed!!!
+2022-11-12		15:50:22		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		15:50:22		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		15:50:22		Entered the is_null_present method of the Preprocessor class
+2022-11-12		15:50:22		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		15:50:22		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:50:26		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		15:50:26		Entered the change_dtype_to_int method of Preprocessor Class!
+2022-11-12		15:50:26		Entered the change_dtype_to_int method of Preprocessor Class!
+2022-11-12		16:09:55		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:09:56		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:09:56		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:09:56		one_hot_encoding is completed!!!
+2022-11-12		16:09:56		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:09:56		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:09:56		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:09:56		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:09:56		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:09:59		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:09:59		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:09:59		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:09:59		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:09:59		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:12:15		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:12:15		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:12:15		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:12:15		one_hot_encoding is completed!!!
+2022-11-12		16:12:15		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:12:15		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:12:15		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:12:15		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:12:15		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:12:19		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:12:19		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:12:19		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:12:19		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:12:19		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:03		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:13:03		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:13:03		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:13:03		one_hot_encoding is completed!!!
+2022-11-12		16:13:03		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:13:03		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:13:03		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:13:03		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:13:03		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:13:07		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:13:07		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:07		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:07		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:07		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:28		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:13:28		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:13:28		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:13:28		one_hot_encoding is completed!!!
+2022-11-12		16:13:28		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:13:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:13:28		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:13:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:13:28		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:13:31		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:13:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:31		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:13:32		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:21:10		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:21:10		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:21:10		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:21:10		one_hot_encoding is completed!!!
+2022-11-12		16:21:10		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:21:10		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:21:10		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:21:10		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:21:10		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:21:14		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:21:14		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:21:14		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:21:14		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:21:14		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:25:29		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:25:29		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:25:29		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:25:29		one_hot_encoding is completed!!!
+2022-11-12		16:25:29		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:25:29		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:25:29		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:25:29		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:25:29		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:25:32		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:25:32		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:25:33		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:25:33		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:25:33		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:26:55		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:26:55		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:26:55		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:26:55		one_hot_encoding is completed!!!
+2022-11-12		16:26:55		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:26:55		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:26:55		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:26:55		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:26:55		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:26:59		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:26:59		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:26:59		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:26:59		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:26:59		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:27:27		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:27:27		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:27:27		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:27:27		one_hot_encoding is completed!!!
+2022-11-12		16:27:27		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:27:27		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:27:27		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:27:27		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:27:27		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:27:31		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:27:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:27:31		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:27:31		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:27:31		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:29:28		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:29:28		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:29:28		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:29:28		one_hot_encoding is completed!!!
+2022-11-12		16:29:28		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:29:28		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:29:28		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:29:28		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:29:28		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:29:32		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:29:32		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:29:32		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:29:32		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:29:32		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:31:03		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:31:03		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:31:03		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:31:03		one_hot_encoding is completed!!!
+2022-11-12		16:31:03		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:31:03		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:31:03		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:31:03		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:31:03		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:31:09		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:31:09		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:31:09		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:31:09		one_hot_encoding is completed!!!
+2022-11-12		16:31:09		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:31:09		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:31:09		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:31:09		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:31:09		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:31:12		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:31:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:31:12		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:31:12		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:31:12		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:33:11		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:33:11		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:33:11		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:33:11		one_hot_encoding is completed!!!
+2022-11-12		16:33:11		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:33:11		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:33:11		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:33:11		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:33:11		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:33:15		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:33:15		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:33:15		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:33:15		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:33:15		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:35:00		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:35:00		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:35:00		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:35:00		one_hot_encoding is completed!!!
+2022-11-12		16:35:00		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:35:00		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:35:00		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:35:00		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:35:00		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:35:03		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:35:03		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:35:03		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:35:03		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:35:03		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:38:18		Entered the manual_preprocessing method of the Preprocessor class
+2022-11-12		16:38:18		manual_preprocessing method of the Preprocessor class is successfully executed!!
+2022-11-12		16:38:18		Entered the one_hot_encoding method of the Preprocessor class
+2022-11-12		16:38:18		one_hot_encoding is completed!!!
+2022-11-12		16:38:18		Entered the separate_label_feature method of the Preprocessor class
+2022-11-12		16:38:18		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2022-11-12		16:38:18		Entered the is_null_present method of the Preprocessor class
+2022-11-12		16:38:18		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2022-11-12		16:38:18		Entered the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:38:22		dataset balancing successful. Exited the handle_imbalanced_dataset method of the Preprocessor class
+2022-11-12		16:38:22		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:38:22		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:38:22		Entered the scale_numerical_columns method of the Preprocessor class
+2022-11-12		16:38:22		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
