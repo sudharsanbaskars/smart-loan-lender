@@ -14,6 +14,6 @@ class App_Logger:
         with open(path+"/"+str(file_name), 'a+') as f:
             f.write(str(self.date)+ "\t\t" + str(self.current_time) + "\t\t"+str(log_message)+"\n")
             f.close()
-        print(str(self.date)+ "\t\t" + str(self.current_time) + "\t\t" + str(log_message)+"\n")
+        #print(str(self.date)+ "\t\t" + str(self.current_time) + "\t\t" + str(log_message)+"\n")
 
 
