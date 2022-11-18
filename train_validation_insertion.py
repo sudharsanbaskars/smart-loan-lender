@@ -2,7 +2,6 @@ import os
 import pandas as pd
 from Application_Logging.logger import App_Logger
 from Training_RawDataValidation.raw_data_validation import RawDataValidation
-from Training_DB_Operations.DB_operations import CassandraDBOperations
 from Training_DB_Operations.db_operation import DBOperations
 
 
