@@ -29,7 +29,7 @@ class TrainModel:
 
             data = self.preprocessor.manual_preprocessing(data)
 
-            data = self.preprocessor.one_hot_encoding(data)
+            #data = self.preprocessor.one_hot_encoding(data)
 
             # Seperating the data into X and Y
             X, Y = self.preprocessor.separate_target_feature(data, "default_payment_next_month")
@@ -53,8 +53,8 @@ class TrainModel:
             # X_test = self.preprocessor.change_dtype_to_int(X_test, None)
 
             # Scaling the data
-            X_train = self.preprocessor.scale_numerical_columns(X_train)
-            X_test = self.preprocessor.scale_numerical_columns(X_test)
+            # X_train = self.preprocessor.scale_numerical_columns(X_train)
+            # X_test = self.preprocessor.scale_numerical_columns(X_test)
 
            # Finding the Best model
             self.log_writer.log(self.logging_file_name, "Entering the best model finder")

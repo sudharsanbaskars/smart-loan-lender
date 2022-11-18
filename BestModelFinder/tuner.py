@@ -34,7 +34,7 @@ class Model_Finder:
         try:
 
             # creating a LogisticRegression model
-            self.lor = LogisticRegression()
+            self.lor = LogisticRegression(solver='liblinear')
             # training the LogisticRegression model
             self.lor.fit(self.train_x, self.train_y)
             self.logger_object.log(self.file_object, '. Exited the get_best_params_for_logistic_regression method of the Model_Finder class')
@@ -234,19 +234,19 @@ class Model_Finder:
 
             self.l.append([self.RandomForest, self.RF_score, 'random_forest'])
             # create best model for xgboost
-            self.xgboost = self.get_best_params_for_xgboost(self.train_x,self.train_y)
-            self.prediction_xgboost = self.xgboost.predict(self.test_x)  # Predictions using the XGBoost Model
-
-
-
-            if len(self.test_y.unique()) == 1:  # if there is only one label in y, then roc_auc_score returns error. We will use accuracy in that case
-                self.xgboost_score = accuracy_score(self.test_y, self.prediction_xgboost)
-                self.logger_object.log(self.file_object, 'Accuracy for XGBoost:' + str(self.xgboost_score))
-            else:
-                self.xgboost_score = roc_auc_score(self.test_y, self.prediction_xgboost)  # AUC for XGBoost
-                self.logger_object.log(self.file_object, 'AUC for XGBoost:' + str(self.xgboost_score))
-
-            self.l.append([self.xgboost, self.xgboost_score, 'xgboost'])
+            # self.xgboost = self.get_best_params_for_xgboost(self.train_x,self.train_y)
+            # self.prediction_xgboost = self.xgboost.predict(self.test_x)  # Predictions using the XGBoost Model
+            #
+            #
+            #
+            # if len(self.test_y.unique()) == 1:  # if there is only one label in y, then roc_auc_score returns error. We will use accuracy in that case
+            #     self.xgboost_score = accuracy_score(self.test_y, self.prediction_xgboost)
+            #     self.logger_object.log(self.file_object, 'Accuracy for XGBoost:' + str(self.xgboost_score))
+            # else:
+            #     self.xgboost_score = roc_auc_score(self.test_y, self.prediction_xgboost)  # AUC for XGBoost
+            #     self.logger_object.log(self.file_object, 'AUC for XGBoost:' + str(self.xgboost_score))
+            #
+            # self.l.append([self.xgboost, self.xgboost_score, 'xgboost'])
             # create best model for Naive Bayes
             self.naive_bayes = self.get_best_params_for_naive_bayes(self.train_x,self.train_y)
             self.prediction_naive_bayes = self.naive_bayes.predict(self.test_x)  # prediction using the Naive Bayes Algorithm

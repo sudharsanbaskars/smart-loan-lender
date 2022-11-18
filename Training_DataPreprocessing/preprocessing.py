@@ -49,23 +49,23 @@ class Preprocessor:
 
             # Lets handle the Education column
             data = data.drop(data[data['EDUCATION'] == 0].index)
-            data["EDUCATION"] = np.where(data["EDUCATION"]==6, 5,  data["EDUCATION"])
+            data["EDUCATION"] = np.where(data["EDUCATION"] == 6, 5, data["EDUCATION"])
 
             # for Marriage column
             data['MARRIAGE'].replace(0, 3, inplace=True)
 
             # for PAY_n columns
             # since PAY_n can take as values only -1,1,2,3,4,5,6,7,8,9
-            for att in ['PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6']:
-                # categories -2,-1 are grouped into a single class -1: pay duty
-                filter = (data[att] == -2) | (data[att] == -1)
-                data.loc[filter, att] = -1
-                # print(data[att].unique())
-                # moreover the category 0 is undocumented
-                # so each category >= 0 has been updated by adding 1
-                data[att] = data[att].astype('int64')
-                filter = (data[att] >= 0)
-                data.loc[filter, att] = data.loc[filter, att] + 1
+            # for att in ['PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6']:
+            #     # categories -2,-1 are grouped into a single class -1: pay duty
+            #     filter = (data[att] == -2) | (data[att] == -1)
+            #     data.loc[filter, att] = -1
+            #     # print(data[att].unique())
+            #     # moreover the category 0 is undocumented
+            #     # so each category >= 0 has been updated by adding 1
+            #     data[att] = data[att].astype('int64')
+            #     filter = (data[att] >= 0)
+            #     data.loc[filter, att] = data.loc[filter, att] + 1
 
             self.logger_object.log(self.file_object,
                                    'manual_preprocessing method of the Preprocessor class is successfully executed!!')

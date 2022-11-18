@@ -75,3 +75,16 @@
 2022-11-12		16:38:18		Got the input csv file!!
 2022-11-12		16:38:22		Entering the best model finder
 2022-11-12		16:38:25		model_training Failed.Exception is cannot unpack non-iterable NoneType object
+2022-11-18		09:52:25		Got the input csv file!!
+2022-11-18		09:52:30		Entering the best model finder
+2022-11-18		09:53:30		model_training Failed.Exception is 
+2022-11-18		10:12:44		Got the input csv file!!
+2022-11-18		10:12:50		Entering the best model finder
+2022-11-18		10:13:48		model_training Failed.Exception is 
+2022-11-18		10:20:21		Got the input csv file!!
+2022-11-18		10:20:24		Entering the best model finder
+2022-11-18		10:20:26		model_training Failed.Exception is 
+2022-11-18		10:20:56		Got the input csv file!!
+2022-11-18		10:20:58		Entering the best model finder
+2022-11-18		10:21:50		The best model is RandomForestClassifier()
+2022-11-18		10:21:50		success

@@ -2,14 +2,18 @@ import pandas as pd
 from train_validation_insertion import TrainingFilesValidation as train_validation
 from training_model import TrainModel as trainModel
 
+"""
+Starting point of the training
+"""
 def start_training():
     try:
         path = 'Training_BatchFiles/'
-        # df = pd.read_csv(path)
 
-        # train_valObj = train_validation(path)  # object initialization
-        # train_valObj.train_validation()  # calling the training_validation function
+        # data validation
+        train_valObj = train_validation(path)  # object initialization
+        train_valObj.train_validation()  # calling the training_validation function
 
+        # data preprocessing and model training
         trainModelObj = trainModel()  # object initialization
         trainModelObj.model_training()  # training the model for the files in the table
 

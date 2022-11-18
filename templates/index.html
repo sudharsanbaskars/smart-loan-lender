@@ -1,230 +1,177 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
-    <title>Prediction Page</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon"
-        href="data:image/png;base64,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" />
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-	<style>
-		body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;}
-		h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700;align:center;}
-		.title{color:#273582;}
-		#fetch{cursor:pointer;}
-		#stopfetch{cursor:pointer;}
-		#fetch:hover,#fetch:active,#fetch:focus,#stopfetch:hover,#stopfetch:active,#stopfetch:focus{background-color:#ff7f00;border-color:#ff7f00;}
-		footer.footer{padding-top:1rem;padding-bottom:1rem;background-color: #e3e8ed!important;}
-		footer a{color:#000;font-weight:600;text-decoration:none;}
-		footer li a:hover{color:orange;}
-		footer li i{color:#363e75;}
-		footer li i:hover{color:orange;}
-		.navbar-light .navbar-brand{color: rgba(0,0,0,.9);}
-		.navbar-light .navbar-brand {margin-left: auto;margin-right: auto;}
-		.container-fluid{
-			width:90%;
-			text-align: center;
-		}
-		.load{
-			height:100%;
-			background-color:#ffffffbe;
-			position:absolute;
-			width:100%;
-			z-index:1000;
-			display:none;
-		}
-		.loader {
-		  border: 10px solid #f3f3f3;
-		  border-radius: 50%;
-		  border-top: 10px solid #3498db;
-		  width: 30px;
-		  height: 30px;
-		  margin-left:auto;
-		  margin-right:auto;
-		  margin-top:30%;
-		  -webkit-animation: spin 2s linear infinite; /* Safari */
-		  animation: spin 2s linear infinite;
-		}
+  <meta charset="UTF-8">
+  <title>credit details</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
-		/* Safari */
-		@-webkit-keyframes spin {
-		  0% { -webkit-transform: rotate(0deg); }
-		  100% { -webkit-transform: rotate(360deg); }
-		}
-
-		@keyframes spin {
-		  0% { transform: rotate(0deg); }
-		  100% { transform: rotate(360deg); }
-		}
-
-		@media (min-width:768px){
-			header.masthead{
-				padding-top:4rem;
-				padding-bottom:4rem;
-			}
-			header.masthead h1{
-				font-size:3rem;
-			}
-		}
-		.res-container{}
-		.result-box{width:80%;margin-left:auto;margin-right:auto;height: 260px;padding:10px;overflow-y: auto;}
-		#loading {
-			position: fixed;
-			left: 0px;
-			top: 0px;
-			width: 100%;
-			height: 100%;
-			z-index: 9999999999;
-			overflow: hidden;
-			background: rgba(255, 255, 255, 0.7);
-		}
-		.loader {
-			border: 8px solid #f3f3f3;
-			border-top: 8px solid #363e75;
-			border-radius: 50%;
-			width: 60px;
-			height: 60px;
-			left: 50%;
-			margin-left: -4em;
-			display: block;
-			animation: spin 2s linear infinite;
-		}
-		.loader,
-		.loader:after {
-			display: block;
-			position: absolute;
-			top: 50%;
-			margin-top: -4.05em;
-		}
-		@keyframes spin {
-			0% {
-				transform: rotate(0deg);
-			}
-			100% {
-				transform: rotate(360deg);
-			}
-		}
-		.footer{position:absolute;bottom:0px;width:100%;}
-		#datafetch_form{padding:0px 40px;}
-		.json-result{}
-		.result-box p{text-align:left;}
-	</style>
 </head>
+<style>
+body  {
+  background-color: #cccccc;
+}
+
+.result {
+    margin: auto;
+    width: 35%;
+    border: 2px groove;
+}
+</style>
 
 <body>
+ <div class="predict">
+	<h2 style="margin: auto; width: 35%; padding: 1%; border: 2px solid; text-align: center;">Credit Card Defaulter Prediction</h2>
 
-	<!-- Navigation -->
-	<nav class="navbar navbar-light bg-light static-top">
-		<div class="container" align="right">
-			<h2 class="title" align="right">Credit Card Fraud Defaulter Prediction</h2>
-		</div>
-	</nav>
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+		<fieldset style="float:left;height: 390px;">
+			<legend><b>Demographic data:</b></legend>
+			<p><b>Gender:</b></p>
+			<input type="radio" id="male" name="gender" value="1" required="required" />
+			<label for="male">Male</label>
+			<input type="radio" id="female" name="gender" value="2" required="required" />
+			<label for="female">Female</label>
+			<br>
 
-	<!-- Testimonials -->
-	<section class="testimonials text-center">
-		<div class="container-fluid">
-			<h4 class="my-4 title">Prediction</h4>
-			<div class="row">
-				<div class="col-md-6 col-xs-12">
-					<br/>
+			<p><b>Education:</b></p>
+			<input type="radio" id="graduate_school" name="education" value="1" required="required"/>
+			<label for="graduate_school">Graduate School</label>
+			<input type="radio" id="university" name="education" value="2" required="required"/>
+			<label for="university">University</label>
+			<input type="radio" id="high_school" name="education" value="3" required="required"/>
+			<label for="high_school">High School</label>
+			<input type="radio" id="others" name="education" value="4" required="required"/>
+			<label for="others">Others</label>
+			<input type="radio" id="unknown" name="education" value="5"required="required"/>
+			<label for="unknown">Unknown</label>
+			<br>
+			<p><b>Marrital Status:</b></p>
+			<input type="radio" id="married" name="marriage" value="1"required="required"/>
+			<label for="married">Married</label>
+			<input type="radio" id="single" name="marriage" value="2" required="required"/>
+			<label for="single">Single</label>
+			<input type="radio" id="others" name="marriage" value="3" required="required"/>
+			<label for="others">Others</label>
+			<br>
+			<br>
+			<label for="age"><b>Age:</b></label>
+			<input type="text" name="age" placeholder="in years" required="required" />
+			<br>
+			<br>
+			<p><b>Limit Balance:</b><br>
+			Amount of given credit in dollar (includes individual and family/supplementary credit)</p>
+			<input type="text" name="limit_bal" placeholder="amount in dollar" required="required" />
 
-					<form action="/predict" method="post" id="datafetch_form" enctype="multipart/form-data">
-
-						<div class="form-group files color">
-							<h4>Upload a CSV file for prediction</h4>
-						</div>
-						<p><strong>(Note: Please upload a CSV File with valid columns)</strong></p>
-						<div>
-							<label class="customUpload btnUpload btnM">
-								<input type="file" name="csvfile" id="csvfile" />
-						  	</label>
-						</div>
-<!--						<div> <input class="form-control btn-primary mb-10" type="button" name="submit" value="Predict"/></div>&lt;!&ndash;<button class="form-control btn-primary">Predict</button>&ndash;&gt;-->
-						<div><button class="form-control btn-primary" type="submit" name="submit">Predict</button></div>
-
-						<br>
-					</form>
-
-					<hr>
-						<h5>Download a Sample submission file for reference</h5>
-						<br>
-						<a class="form-control btn btn-primary" href="return_sample_file/" >Download Sample Submission CSV File</a>
+		</fieldset>
+		<fieldset style="height: 390px;">
+			<legend><b>Behavioral data:</b></legend>
+			<div class="repay_status_parent">
+				<p><b>Repayment Status:</b><br>
+				(-1=pay duly, 1=one month delay, 2=two months delay, … 9=delay for nine months and above)</p>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="repay_status">April</label><br>
+					<input name="pay_6" id="pay_6" min="-2" max="9" type="number" value="0" required>
 				</div>
-				<div class="res-container  col-md-6 col-xs-12">
-					<div class="result-box shadow rounded-lg">
-						{% block content %}
-<!--						<h6 class="title">Results</h6>-->
-<!--							<div class="json-result">-->
-<!--							</div>-->
-						{% endblock content %}
-					</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="repay_status">May</label><br>
+					<input name="pay_5" id="pay_5" min="-2" max="9" type="number" value="0" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="repay_status">June</label><br>
+					<input name="pay_4" id="pay_4" min="-2" max="9" type="number" value="0" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="repay_status">July</label><br>
+					<input name="pay_3" id="pay_3" min="-2" max="9" type="number" value="0" required>
+				</div>
+				<div style="float:left;margin-right: 1.5em;">
+					<label for="repay_status">August</label><br>
+					<input name="pay_2" id="pay_2" min="-2" max="9" type="number" value="0" required>
+				</div>
+				<div style="float:left;">
+					<label for="repay_status">September</label><br>
+					<input name="pay_0" id="pay_0" min="-2" max="9" type="number" value="0" required>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<!-- Footer -->
-	<footer class="footer">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-6 h-100 text-center my-auto mx-auto">
-					<ul class="list-inline mb-1">
-						<li class="list-inline-item"><a href="#">About</a></li>
-						<li class="list-inline-item">&sdot;</li>
-						<li class="list-inline-item"><a href="https://www.linkedin.com/in/sudharsan-b-9447a51ab/">Contact</a></li>
-						<li class="list-inline-item">&sdot;</li>
-<!--						<li class="list-inline-item"><a href="https://ineuron.ai/privacy.html">Privacy Policy</a></li>-->
-					</ul>
-					<p class="text-muted small mb-2 mb-lg-0">&copy;All Rights Reserved.2021</p>
+			<br>
+			<br>
+			<br>
+			<div class="bill_amount_parent">
+				<p><b>Bill Amounts:</b> Amount of bill statements (in dollar)</p>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="bill_amount">April</label><br>
+					<input name="bill_amt6" id="bill_amt6" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="bill_amount">May</label><br>
+					<input name="bill_amt5" id="bill_amt5" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="bill_amount">June</label><br>
+					<input name="bill_amt4" id="bill_amt4" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="bill_amount">July</label><br>
+					<input name="bill_amt3" id="bill_amt3" value="0" type="text" required>
+				</div>
+				<div style="float:left;margin-right: 1.5em;">
+					<label for="bill_amount">August</label><br>
+					<input name="bill_amt2" id="bill_amt2" value="0" type="text" required>
+				</div>
+				<div style="float:left;">
+					<label for="bill_amount">September</label><br>
+					<input name="bill_amt1" id="bill_amt1" value="0" type="text" required>
 				</div>
 			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="previous_payments_parent">
+				<p><b>Previous Payments:</b> Amount of previous payments (in dollar)</p>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="previous_payments">April</label><br>
+					<input name="pay_amt6" id="pay_amt6" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="previous_payments">May</label><br>
+					<input name="pay_amt5" id="pay_amt5" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="previous_payments">June</label><br>
+					<input name="pay_amt4" id="pay_amt4" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="previous_payments">July</label><br>
+					<input name="pay_amt3" id="pay_amt3" value="0" type="text" required>
+				</div>
+				<div style="float:left; margin-right: 1.5em;">
+					<label for="previous_payments">August</label><br>
+					<input name="pay_amt2" id="pay_amt2" value="0" type="text" required>
+				</div>
+				<div style="float:left;">
+					<label for="previous_payments">September</label><br>
+					<input name="pay_amt1" id="pay_amt1" type="text" value="0" required>
+				</div>
+			</div>
+		</fieldset>
+		<br>
+		<div style="text-align:center;">
+			<button type="submit" class="btn btn-primary btn-block btn-large"><b>Predict</b></button>
 		</div>
-	</footer>
+    </form>
+	<br>
+	<div class="result" align="center">
+		{% if prediction_text %}
+			<p style="padding: 0.5%"><b>{{ prediction_text }}</b></p>
+		{% endif %}
+	</div>
+ </div>
 
 
-	<div id="loading"><div class="loader"></div></div>
-	<!-- Bootstrap core JavaScript -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-	<script>
-
-		$(document).ready(function(){
-			$('#loading').hide();
-			$("#customfile").click(function(e){
-				e.preventDefault();
-				$('#loading').show();
-				var path = $("#csvfile").val();
-				$.ajax({
-					//change url below
-					url : "/predict",
-					type: "POST",
-					data: {filepath:path},
-					success: function(response){
-						$(".json-result").html('<p>"Prediction File created at !!!Prediction_Output_File/Predictions.csvand few of the predictions are"</p><pre>' + response + '</pre>');
-						$('#loading').hide();
-					}
-				});
-			});
-			$("#defaultfile").click(function(e){
-				e.preventDefault();
-				$('#loading').show();
-				var path = $(this).attr("data-path");
-				$.ajax({
-					//change url below
-					url : "/predict",
-					type: "POST",
-					data: {filepath:path},
-					success: function(response){
-						$(".json-result").html('<p>"Prediction File created !!!</p><pre>' + response + '</pre>');
-						$('#loading').hide();
-					}
-				});
-
-			});
-		});
-	</script>
 </body>
-
 </html>

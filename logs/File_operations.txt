@@ -8,3 +8,5 @@
 2022-11-12		15:05:43		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class
 2022-11-12		15:08:24		Entered the save_model method of the File_Operation class
 2022-11-12		15:08:24		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class
+2022-11-18		10:21:50		Entered the save_model method of the File_Operation class
+2022-11-18		10:21:50		Model File random_forest.sav saved. Exited the save_model method of the Model_Finder class
